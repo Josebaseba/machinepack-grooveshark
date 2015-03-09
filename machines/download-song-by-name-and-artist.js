@@ -67,6 +67,8 @@ module.exports = {
     GS.Tinysong.getSongInfo(inputs.name, inputs.artist, function(err, info) {
       if(err) return exits.error(err);
 
+      if(!info) return exits.notFound();
+
       GS.Grooveshark.getStreamingUrl(info.SongID, function(err, streamUrl) {
         if(err) return exits.error(err);
 
