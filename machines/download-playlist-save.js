@@ -7,7 +7,7 @@ module.exports = {
   description: 'Download all the song, and save it into a folder, by playlist ID',
 
 
-  extendedDescription: 'This method is MUCH slower that .downloadPlaylist() method' +
+  extendedDescription: 'This method is MUCH slower than .downloadPlaylist() method' +
                        ' because it waits just downloaded song duration to go for the next one.' +
                        ' Why? Just to dont be banned from Grooveshark for some few hours!',
 
