@@ -1,6 +1,6 @@
 {
   "name": "machinepack-grooveshark",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Download songs from playlists or by name from Grooveshark. NOT OFFICIAL API",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -26,7 +26,8 @@
     "friendlyName": "Grooveshark",
     "machineDir": "machines/",
     "machines": [
-      "download-song-by-name-and-artist"
+      "download-song-by-name-and-artist",
+      "download-playlist"
     ]
   }
 }

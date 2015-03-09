@@ -25,7 +25,7 @@ module.exports = {
     },
 
     path: {
-      example: '/userId/coolFolder',
+      example: '/www/music/userId/coolFolder',
       description: 'ABSOLUTE Path to the folder where the song will be saved, if the folder doesn\'t exist it will be created',
       required: true
     }
