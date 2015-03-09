@@ -7,9 +7,9 @@ module.exports = {
   description: 'Download all the song, and save it into a folder, by playlist ID',
 
 
-  extendedDescription: 'DANGER: This method goes really fast downloading song,' +
+  extendedDescription: 'DANGER: This method goes really fast downloading songs,' +
                        ' but you can be banned by Grooveshark for few hours,' +
-                       ' for a safer, but slower method, please use downloadPlaylistSafe.',
+                       ' for a safer, but slower download method, please use downloadPlaylistSafe.',
 
 
   inputs: {
