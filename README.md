@@ -8,7 +8,7 @@
 Download songs, get playlist and download all the songs, download by name and artist... Not OFFICIAL API (yet!)
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-grooveshark.svg)](http://badge.fury.io/js/machinepack-grooveshark) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-grooveshark.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-grooveshark)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-grooveshark.svg)](http://badge.fury.io/js/machinepack-grooveshark)
 
 ```sh
 $ npm install machinepack-grooveshark
