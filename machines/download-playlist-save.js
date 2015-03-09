@@ -1,15 +1,15 @@
 module.exports = {
 
 
-  friendlyName: 'Download songs by playlist id',
+  friendlyName: 'Download songs by playlist id avoiding temporal Grooveshark blacklist',
 
 
   description: 'Download all the song, and save it into a folder, by playlist ID',
 
 
-  extendedDescription: 'DANGER: This method goes really fast downloading song,' +
-                       ' but you can be banned by Grooveshark for few hours,' +
-                       ' for a safer, but slower method, please use downloadPlaylistSafe.',
+  extendedDescription: 'This method is MUCH slower that .downloadPlaylist() method' +
+                       ' because it waits just downloaded song duration to go for the next one.' +
+                       ' Why? Just to dont be banned from Grooveshark for some few hours!',
 
 
   inputs: {

@@ -9,7 +9,8 @@ module.exports = {
 
   extendedDescription: 'DANGER: This method goes really fast downloading songs,' +
                        ' but you can be banned by Grooveshark for few hours,' +
-                       ' for a safer, but slower download method, please use downloadPlaylistSafe.',
+                       ' for a safer, but slower download method, please use downloadPlaylistSafe.' +
+                       ' More or less with this method you can download 40 songs before beeing banned, not bad!',
 
 
   inputs: {
