@@ -1,6 +1,6 @@
 {
   "name": "machinepack-grooveshark",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Download songs from playlists or by name from Grooveshark. NOT OFFICIAL API",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"

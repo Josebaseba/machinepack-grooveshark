@@ -51,7 +51,8 @@ module.exports = {
     },
 
     success: {
-      description: 'Downloaded.',
+      description: 'Downloaded, the file url',
+      example: '/www/music/userId/coolFolder/Bohemian Rhapsody.mp3'
     }
 
   },
@@ -88,7 +89,7 @@ module.exports = {
              return exits.error(err);
            })
            .on('end', function(){
-             return exits.success();
+             return exits.success(songPath);
            })
            .pipe(fs.createWriteStream(songPath));
       });
