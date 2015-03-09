@@ -1,6 +1,6 @@
 {
   "name": "machinepack-grooveshark",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Download songs from playlists or by name from Grooveshark. NOT OFFICIAL API",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -30,5 +30,9 @@
       "download-playlist",
       "download-playlist-save"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Josebaseba/machinepack-grooveshark.git"
   }
 }
