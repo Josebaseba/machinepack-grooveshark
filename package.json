@@ -1,6 +1,6 @@
 {
   "name": "machinepack-grooveshark",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Download songs, get playlist and download all the songs, download by name and artist... Not OFFICIAL API (yet!)",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -12,8 +12,12 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies":{
-    "machine": "^3.0.0"
+  "dependencies": {
+    "async": "^0.9.0",
+    "grooveshark-downloader": "^0.1.0",
+    "machine": "^3.0.0",
+    "mkdirp": "^0.5.0",
+    "request": "^2.53.0"
   },
   "devDependencies": {
     "test-machinepack-mocha": "^0.2.2"
@@ -21,6 +25,8 @@
   "machinepack": {
     "friendlyName": "Grooveshark",
     "machineDir": "machines/",
-    "machines": ["say-hello"]
+    "machines": [
+      "download-song-by-name-and-artist"
+    ]
   }
 }
