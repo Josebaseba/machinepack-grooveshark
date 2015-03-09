@@ -70,7 +70,10 @@ module.exports = {
       if(!info) return exits.notFound();
 
       GS.Grooveshark.getStreamingUrl(info.SongID, function(err, streamUrl) {
-        if(err) return exits.error(err);
+        if(err){
+          if(err === 'banned') return exits.downloadLimitExceded();
+          return exits.error(err);
+        }
 
         if(!fs.existsSync(inputs.path)){
           var mkdirp = require('mkdirp');
