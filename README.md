@@ -3,6 +3,9 @@
   machinepack-grooveshark
 </h1>
 
+####NOT WORKING ANY MORE :( 
+#####more info -> http://grooveshark.com
+
 ### [Docs](http://node-machine.org/machinepack-grooveshark) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
 Download songs, get playlist and download all the songs, download by name and artist... Not OFFICIAL API (yet!)
